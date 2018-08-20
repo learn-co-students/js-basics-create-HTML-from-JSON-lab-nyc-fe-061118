@@ -42,7 +42,7 @@ movies = {
       }
     ]
   },
-  "Terminator 2": {
+  "Terminator2": {
     "title": "Terminator 2",
     "director": "James Cameron",
     "genre": "Sci-fi",
