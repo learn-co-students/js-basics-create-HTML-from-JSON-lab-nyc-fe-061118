@@ -8,7 +8,6 @@ $(document).ready(function() {
   $('#filmRating').html(movies.Titanic.filmRating);
   $('#description').html(movies.Titanic.description);
   $('#audienceScore').html(movies.Titanic.audienceScore);
-  debugger;
   putCastMembersonPage()
   putTerminatorOnPage()
   // movies.forEach(function(movie) {
@@ -45,7 +44,7 @@ function putTerminatorOnPage() {
 }
 
 function appendCastmembers(movieTitle) {
-   movies[movieTitle]cast.forEach(function(castMember) {
+   movies[movieTitle].cast.forEach(function(castMember) {
       $(`#cast`).append(`<li>${castMember.actor}</li>`)
     })
 }
